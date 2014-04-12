@@ -45,11 +45,9 @@ vagrantfile-local:
         host: detect
 server:
     packages:
-        - Subversion
         - git
         - openssl
         - vim
-        - sockets
     dot_files:
         -
             bash_aliases: null
