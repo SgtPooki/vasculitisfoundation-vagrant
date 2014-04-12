@@ -109,7 +109,7 @@ nginx:
                 - 'APP_ENV dev'
 php:
     install: '1'
-    version: '54'
+    version: '53'
     composer: '1'
     modules:
         php:
@@ -153,7 +153,7 @@ mysql:
             host: localhost
             user: dbuser
             password: '123'
-            sql_file: /var/www/vascwordpress.sql
+            #sql_file: /var/www/vascwordpress.sql
 postgresql:
     install: 0
     settings:
