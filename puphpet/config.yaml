@@ -28,7 +28,7 @@ vagrantfile-local:
         synced_folder:
             dFOEvrbKVSvw:
                 source: ../
-                target: /var/www
+                target: /var/www/
                 nfs: 'false'
         usable_port_range: 2200..2250
     ssh:
@@ -79,7 +79,7 @@ apache:
             servername: demo.vasculitisfoundation.org
             serveraliases:
                 - demo.vasculitisfoundation.org
-            docroot: /var/www/vasculitis
+            docroot: /var/www/
             port: '80'
             setenv:
                 - 'APP_ENV dev'
@@ -153,7 +153,7 @@ mysql:
             host: localhost
             user: dbuser
             password: '123'
-            sql_file: /var/www/sql/vascwordpress.sql
+            sql_file: /var/www/vascwordpress.sql
 postgresql:
     install: 0
     settings:
